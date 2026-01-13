@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/Plugins/flickity-master/dist/flickity.min.css">
+    <link rel="stylesheet" href="Assets/Plugins/bootstrap/bootstrap-5.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Assets/Css/home_css.css">
+    <link rel="stylesheet" href="Assets/Plugins/Scroll-To-Top-Button-backToTop/dist/jquery-backToTop.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+        integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="shortcut icon" href="Assets/Images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="Assets/Css/login.css">
+    <title>BookStore | login</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg shadow-sm fixed-top" style="background-color: #FFFFFF">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand">
+                    Book<span id="Store">Store</span>
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="#" class="nav-item nav-link">
+                            <div class="dropdown">
+                                <span class="shop">Shop Books</span>
+                                <div class="dropdown-content">
+                                    <p onclick="location.href='children.html';">Children</p>
+                                    <p onclick="location.href='school.html';">School</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="contact.html" class="nav-item nav-link">Contacts</a>
+                    </div>
+                    <div class="navbar-nav ms-auto">
+                        <a href="#" class="nav-item nav-link">Login</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div><br><br><br>
+    <!-- nav ends -->
+    <div class="container">
+        <section class="vh-100">
+            <div class="container-fluid h-custom">
+                <div class="row d-flex justify-content-center align-items-center h-100">
+                    <div class="col-md-9 col-lg-6 col-xl-5">
+                        <img src="Assets/Images/login.jpg"
+                            class="img-fluid" alt="Sample image">
+                    </div>
+                    <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+                        <form>
+                            <div
+                                class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
+                                <p class="lead fw-normal mb-0 me-3">Sign in with</p>
+                                <button type="button" class="btn btn-primary btn-floating mx-1">
+                                    <i class="fab fa-facebook-f"></i>
+                                </button>
+
+                                <button type="button" class="btn btn-primary btn-floating mx-1">
+                                    <i class="fab fa-twitter"></i>
+                                </button>
+
+                                <button type="button" class="btn btn-primary btn-floating mx-1">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </button>
+                            </div>
+
+                            <div class="divider d-flex align-items-center my-4">
+                                <p class="text-center fw-bold mx-3 mb-0">Or</p>
+                            </div>
+
+                            <!-- Email input -->
+                            <div class="form-outline mb-4">
+                                <input type="email" id="form3Example3" class="form-control form-control-lg"
+                                    placeholder="Enter a valid email address" />
+                                <label class="form-label" for="form3Example3">Email address</label>
+                            </div>
+
+                            <!-- Password input -->
+                            <div class="form-outline mb-3">
+                                <input type="password" id="form3Example4" class="form-control form-control-lg"
+                                    placeholder="Enter password" />
+                                <label class="form-label" for="form3Example4">Password</label>
+                            </div>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <!-- Checkbox -->
+                                <div class="form-check mb-0">
+                                    <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3" />
+                                    <label class="form-check-label" for="form2Example3">
+                                        Remember me
+                                    </label>
+                                </div>
+                                <a href="#!" class="text-body">Forgot password?</a>
+                            </div>
+
+                            <div class="text-center text-lg-start mt-4 pt-2">
+                                <button type="button" class="btn btn-primary btn-lg"
+                                    style="padding-left: 2.5rem; padding-right: 2.5rem;">Login</button>
+                                <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="#!"
+                                        class="link-danger">Register</a></p>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- div starts -->
+    <div class="container">
+        <div class="row">
+            <div class="col" id="h2_heading">
+                <h2>
+                    <div style="color: #333333;">Your Passport to Literacy Adventures!</div>
+                </h2>
+            </div><br><br><br>
+            <div class="row">
+                <div class="input-group">
+                    <input type="search" class="form-control rounded" placeholder="email@example.com"
+                        aria-label="Search" aria-describedby="search-addon" />
+                    <button type="button" class="btn btn-outline-primary" data-mdb-ripple-init>Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </div><br>
+    <!-- div ends -->
+    <!-- footer starts -->
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-muted shadow-lg" style="margin-top: 50px;">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <!-- Left -->
+            <div class="me-5 d-none d-lg-block">
+                <span>Get connected with us on social networks:</span>
+            </div>
+            <!-- Left -->
+
+            <!-- Right -->
+            <div>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fa fa-book me-3"></i>BookStore
+                        </h6>
+                        <p>
+                            Thank you for stopping by our website! Your visit is greatly appreciated. We hope you
+                            found
+                            valuable
+                            information and enjoyed exploring. Feel free to reach out with any questions or
+                            feedback.
+                            Looking forward
+                            to welcoming you back soon!
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Products
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Books</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Blogs</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Facts</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Assignments</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Useful links
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Pricing</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Settings</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Orders</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Help</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p><i class="fas fa-home me-3"></i> Poles Road, Puttalam, Sri Lanka</p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            bookstore@gmail.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> + 94 234 567 88</p>
+                        <p><i class="fas fa-print me-3"></i> + 94 234 567 89</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: white;">
+            © 2023 Copyright:
+            <a class="text-reset fw-bold" href="#">BookStore.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <!-- footer ends -->
+    <script src="Assets/Plugins/bootstrap/bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="Assets/Js/home.js"></script>
+    <script src="Assets/Js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="Assets/Js/cdnjs/jquery.slim.min.js"></script>
+    <script src="Assets/Plugins/Scroll-To-Top-Button-backToTop/jquery-backToTop.js"></script>
+</body>
+
+</html>

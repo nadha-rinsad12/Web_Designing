@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/Plugins/flickity-master/dist/flickity.min.css">
+    <link rel="stylesheet" href="Assets/Plugins/bootstrap/bootstrap-5.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Assets/Css/home_css.css">
+    <link rel="stylesheet" href="Assets/Plugins/Scroll-To-Top-Button-backToTop/dist/jquery-backToTop.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+        integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="shortcut icon" href="Assets/Images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="Assets/Css/about.css">
+    <title>BookStore | Contact</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg shadow-sm fixed-top" style="background-color: #FFFFFF">
+            <div class="container-fluid">
+                <a href="home.html" class="navbar-brand">
+                    Book<span id="Store">Store</span>
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="home.html" class="nav-item nav-link">Home</a>
+                        <a href="#" class="nav-item nav-link">
+                            <div class="dropdown">
+                                <span class="shop">Shop Books</span>
+                                <div class="dropdown-content">
+                                    <p onclick="location.href='children.html';">Children</p>
+                                    <p onclick="location.href='school.html';">School</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="contact.html" class="nav-item nav-link">Contacts</a>
+                    </div>
+                    <div class="navbar-nav ms-auto">
+                        <a href="login.html" class="nav-item nav-link">Login</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div><br><br><br>
+    <!-- nav ends -->
+    <div class="container">
+        <!--Section: Contact v.2-->
+        <section class="mb-4">
+
+            <!--Section heading-->
+            <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+            <!--Section description-->
+            <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to
+                contact us directly. Our team will come back to you within
+                a matter of hours to help you.</p>
+
+            <div class="row">
+
+                <!--Grid column-->
+                <div class="col-md-9 mb-md-0 mb-5">
+                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                        <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="name" name="name" class="form-control">
+                                    <label for="name" class="">Your name</label>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="email" name="email" class="form-control">
+                                    <label for="email" class="">Your email</label>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                        </div>
+                        <!--Grid row-->
+
+                        <!--Grid row-->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="subject" name="subject" class="form-control">
+                                    <label for="subject" class="">Subject</label>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Grid row-->
+
+                        <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-md-12">
+
+                                <div class="md-form">
+                                    <textarea type="text" id="message" name="message" rows="2"
+                                        class="form-control md-textarea"></textarea>
+                                    <label for="message">Your message</label>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--Grid row-->
+
+                    </form>
+
+                    <div class="text-center text-md-left">
+                        <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                    </div>
+                    <div class="status"></div>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-md-3 text-center">
+                    <ul class="list-unstyled mb-0">
+                        <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                            <p>Poles Road, Puttalam, Sri Lanka</p>
+                        </li>
+
+                        <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                            <p>+ 94 234 567 89</p>
+                        </li>
+
+                        <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                            <p>bookstore@gmail.com</p>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+            </div>
+
+        </section>
+        <!--Section: Contact v.2-->
+    </div>
+    <!-- footer starts -->
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-muted shadow-lg" style="margin-top: 50px;">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <!-- Left -->
+            <div class="me-5 d-none d-lg-block">
+                <span>Get connected with us on social networks:</span>
+            </div>
+            <!-- Left -->
+
+            <!-- Right -->
+            <div>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fa fa-book me-3"></i>BookStore
+                        </h6>
+                        <p>
+                            Thank you for stopping by our website! Your visit is greatly appreciated. We hope you found
+                            valuable
+                            information and enjoyed exploring. Feel free to reach out with any questions or feedback.
+                            Looking forward
+                            to welcoming you back soon!
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Products
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Books</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Blogs</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Facts</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Assignments</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Useful links
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Pricing</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Settings</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Orders</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Help</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p><i class="fas fa-home me-3"></i> Poles Road, Puttalam, Sri Lanka</p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            bookstore@gmail.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> + 94 234 567 88</p>
+                        <p><i class="fas fa-print me-3"></i> + 94 234 567 89</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: white;">
+            © 2023 Copyright:
+            <a class="text-reset fw-bold" href="#">BookStore.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <!-- footer ends -->
+    <script src="Assets/Plugins/bootstrap/bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="Assets/Js/home.js"></script>
+    <script src="Assets/Js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="Assets/Js/cdnjs/jquery.slim.min.js"></script>
+    <script src="Assets/Plugins/Scroll-To-Top-Button-backToTop/jquery-backToTop.js"></script>
+</body>
+
+</html>
