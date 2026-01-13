@@ -1,0 +1,24 @@
+#banner{
+  background-color: #FFB665;
+  color: white;
+  padding: 30px;
+}
+.para_children{
+  color: white;
+  text-align: justify;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hr_children{
+  color: white;
+  width: 50%;
+}
+.book_cover_name{
+  font-size: 17px;
+  color: #333333;
+}
+.img_plugin{
+  padding: 10px;
+}
+#children_img:hover{
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}

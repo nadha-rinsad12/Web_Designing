@@ -1,0 +1,30 @@
+#banner_row{
+    padding: 30px;
+}
+.banner_h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.banner_para{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.banner_button{
+    color: white;
+    background-color: #FFB665;
+    border: none;
+    padding: 10px;
+    font-weight:500;
+    border-radius: 10px;
+}
+.banner_para2{
+    font-size: 13px;
+}
+.img_container{
+    width: 400px;
+    height: 200px;
+}
+.h3_school{
+    text-align: left;
+}
+.h3_school:hover{
+    text-decoration: 2px solid underline #333333;
+}
